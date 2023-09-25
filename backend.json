@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "BzrNkwRzosMs2lpbUOGjLMxiG5G3": {
+        "type": "object",
+        "properties": {
+          "image": { "type": "string", "format": "uri" },
+          "name": { "type": "string" }
+        },
+        "required": ["image", "name"]
+      },
+      "highScore": { "type": "string" },
+      "null": {
+        "type": "object",
+        "properties": {
+          "image": { "type": "string", "format": "uri" },
+          "name": { "type": "string" }
+        },
+        "required": ["image", "name"]
+      },
+      "otJfyLPa65ZHfZCKXNc8zSo16Vm1": {
+        "type": "object",
+        "properties": {
+          "image": { "type": "string", "format": "uri" },
+          "name": { "type": "string" }
+        },
+        "required": ["image", "name"]
+      }
+    },
+    "required": ["BzrNkwRzosMs2lpbUOGjLMxiG5G3", "highScore", "null", "otJfyLPa65ZHfZCKXNc8zSo16Vm1"]
+  }
+  
