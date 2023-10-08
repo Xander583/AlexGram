@@ -57,6 +57,36 @@
     },
     "children": [
         {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": 0,
+                "ParentId": "cd01aa0d-3942-4033-94d1-f8345c5d6fad",
+                "Y": 0,
+                "RelativeX": 0,
+                "RelativeY": 0,
+                "position": "absolute",
+                "edgeOffsets": 0,
+                "style": {
+                    "position": "absolute",
+                    "left": "14%",
+                    "top": "1.6291902876686657%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "6d32e798-a105-4f31-b486-05478f50e07a",
+            "thunkableVersion": 423,
+            "name": "AdMob_Banner2"
+        },
+        {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
@@ -65,10 +95,10 @@
                 "Height": 49,
                 "Width": 57,
                 "Visible": true,
-                "X": 311,
-                "Y": 0,
-                "RelativeX": 311,
-                "RelativeY": 0,
+                "X": 318,
+                "Y": 616,
+                "RelativeX": 318,
+                "RelativeY": 616,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -95,7 +125,7 @@
                 "capInsets": {},
                 "ParentId": "cd01aa0d-3942-4033-94d1-f8345c5d6fad",
                 "position": "absolute",
-                "edgeOffsets": 0
+                "edgeOffsets": 616
             },
             "children": [],
             "id": "b656eebb-876b-4bd6-aaa5-e2ebabd680b8",
