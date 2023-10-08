@@ -57,6 +57,36 @@
     },
     "children": [
         {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": -2,
+                "ParentId": "1c593da4-2706-4606-b458-dbcebdd8deef",
+                "Y": -7.105427357601002e-15,
+                "RelativeX": -2,
+                "RelativeY": -1,
+                "position": "absolute",
+                "edgeOffsets": -7.105427357601002e-15,
+                "style": {
+                    "position": "absolute",
+                    "left": "5.733333333333333%",
+                    "top": "3.1284406624812595%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "f976060d-3f95-49fd-9721-0e612596af09",
+            "thunkableVersion": 423,
+            "name": "AdMob_Banner1"
+        },
+        {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
@@ -66,9 +96,9 @@
                 "Width": 54,
                 "Visible": true,
                 "X": 319,
-                "Y": -1,
+                "Y": 619,
                 "RelativeX": 319,
-                "RelativeY": -1,
+                "RelativeY": 619,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -95,7 +125,7 @@
                 "capInsets": {},
                 "ParentId": "1c593da4-2706-4606-b458-dbcebdd8deef",
                 "position": "absolute",
-                "edgeOffsets": -1.1368683772161603e-13
+                "edgeOffsets": 619
             },
             "children": [],
             "id": "097ea510-3477-4594-bf16-5fa43ad37c13",

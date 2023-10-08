@@ -4,7 +4,23 @@
             "apiComponents": {
                 "ApiContainer": {
                     "id": "ApiContainer",
-                    "children": []
+                    "children": [
+                        {
+                            "type": "AdMob Interstitial",
+                            "translatedName": "AdMob Interstitial",
+                            "isApi": true,
+                            "reactType": "AdMobInterstitial",
+                            "properties": {
+                                "AdUnitID": "ca-app-pub-3940256099942544/1033173712",
+                                "AdUnitID_iOS": "ca-app-pub-3940256099942544/1033173712",
+                                "TestMode": true
+                            },
+                            "children": [],
+                            "id": "9583455f-7cc6-44a3-b162-d3c77a0979c1",
+                            "thunkableVersion": 423,
+                            "name": "AdMob_Interstitial1"
+                        }
+                    ]
                 }
             },
             "assets": {
@@ -21,8 +37,8 @@
                     "createdAt": "2023-09-24T19:03:35.304Z",
                     "updatedAt": "2023-09-24T19:03:35.304Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f8c925621b9c5618b3d365/projects/6509ce53a0b8d4619e46e2aa/assets/651088076dfeb97ac0193852?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231003%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231003T154933Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=5ceff1f27e0028dcbe5f2ab7fddad16e0cdc3e03c4eb808b1d6db77c7b4f3563da492f7dbe7d348a4e9c7fc97cefc3efe7844d9f421079baa08ae9994a4fef6a869ad80196ef161853f1103cd72887fb33a92fef6e2e2d2e38968130bacec4ff6cb769cb0780ab6af7f26902b194d87c4ab1c00503ff057b59ffa95ee2d29b32e85234690fbe5d1a67e2c688222daca4b5f82719d5baf474f575b3038f236e06311b1b6c7f9078a3c38a60b598b85d271c2b793a0279769d8cc4e10689afa7a7277a85518417c64c82a50dca93bf4e68cfbbf059d144bb15a35f0d9b140721a59b679a7f95b84c1b63812cc5fd6896c7e600b0c4d55c4180c581bab8dc574bab",
-                    "signedUrlExpirationTime": 1696520973059
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f8c925621b9c5618b3d365/projects/6509ce53a0b8d4619e46e2aa/assets/651088076dfeb97ac0193852?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231008%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231008T160302Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=98cf95c8adc1a299d2b770bab17d8c82b885b56ba9ba4029c16e266a66bcecc5d32102cbbd03f24d0b685e6e2be60533f11349c89827d01e4346664fe8437103a06bcaf248e6c2cea90ff1f2e7cc5c521d2253d9dd68e9d636d83e75dcc03a1788fe8bf99abe941059a0c62b63cad350d65571b75b6448c61ebf925cc5585d5fbefe3791c65dd23164b2576588b9b35839b81ff297f4940e41a0a138a1aa0c4740ad08315888375916d82163440d82f3625abc0eaf8d3ccc5c3b79178825c27c15bb54505d08673591ceee632d4f6a62468c9f77fef13b4a8342314f78b5214e446a7d67d8ef58dca4bac36eab30d50a6425bb128b1581bdf26fe747912b9f51",
+                    "signedUrlExpirationTime": 1696953782598
                 }
             },
             "backendUpgradeVersion": 21,
@@ -107,7 +123,7 @@
             "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "Sign in App",
+            "projectName": "AlexGram",
             "settings": {
                 "teamId": null,
                 "appName": null,
@@ -139,7 +155,10 @@
                 "cloudinaryAPISecret": null,
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {}
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": "",
+                            "NSPhotoLibraryUsageDescription": ""
+                        }
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -150,7 +169,7 @@
                 "appleOAuthWebClientID": null,
                 "appleOAuthWebRedirectURI": null,
                 "admobAppIdIOS": null,
-                "admobAppIdAndroid": null,
+                "admobAppIdAndroid": "AlexGramca-app-pub-9549425130221891~5553368174",
                 "admobUserTrackingUsageDescription": null,
                 "__typename": "ProjectSettings"
             },
@@ -185,7 +204,10 @@
                 "cloudinaryAPISecret": null,
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {}
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": "",
+                            "NSPhotoLibraryUsageDescription": ""
+                        }
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -196,11 +218,11 @@
                 "appleOAuthWebClientID": null,
                 "appleOAuthWebRedirectURI": null,
                 "admobAppIdIOS": null,
-                "admobAppIdAndroid": null,
+                "admobAppIdAndroid": "AlexGramca-app-pub-9549425130221891~5553368174",
                 "admobUserTrackingUsageDescription": null,
                 "__typename": "ProjectSettings"
             },
-            "hasAdmob": false,
+            "hasAdmob": true,
             "hasBluetoothLowEnergy": null,
             "hasPushNotification": false,
             "hasAssistant": null,
